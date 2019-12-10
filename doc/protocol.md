@@ -7,6 +7,8 @@ This document specifies the communicator protocol. It is a very lightweight prot
 notes: 
 * ed25519 takes about 16ms
 * chachapoly has about 2.2mb/s esp32 and 1,1mb/s esp8266 at 160mhz
+* key rotation bei gruppenevent/ nachrichtenanzahl/zeit
+* operations definieren
 
 The following requirements are addressed by the protocol specified below.
 
@@ -16,6 +18,23 @@ The following requirements are addressed by the protocol specified below.
 4. Message sending restricted to authorized nodes
 5. Removal of nodes
 6. Adding of nodes
+
+
+# Key Management
+
+The following keys und key usages are intended to exist in the system.
+
+## Controller Master Key (CMK)
+
+## Device Master Key (DMK)
+
+The device master key is a symmetric key which is used to perform the handshake with the controller.
+
+## Device Derived Key (DDK)
+
+## Channel Key (CHK)
+
+
 
 
 # Messages

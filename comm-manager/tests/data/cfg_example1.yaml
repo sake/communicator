@@ -1,0 +1,17 @@
+server-key: 1234567890
+
+clients:
+  - client1:
+    key: 1a2b3c4d
+    desc: Hans Peter
+  - client2:
+    key: d4c3b2a1
+    desc: Gerd Müller
+
+groups:
+  - group1:
+    name: name-for-the-topic
+    key: abcdefg
+    activation-code: "-.-" # long short long
+    clients:
+      - client1
