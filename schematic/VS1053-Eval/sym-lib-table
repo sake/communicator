@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name VS1053-Eval)(type Legacy)(uri ${KIPRJMOD}/lib/VS1053-ESP32-Eval.lib)(options "")(descr ""))
+  (lib (name VS1053-ESP32-Eval-rescue)(type Legacy)(uri ${KIPRJMOD}/VS1053-ESP32-Eval-rescue.lib)(options "")(descr ""))
+)

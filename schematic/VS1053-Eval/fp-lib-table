@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name VS1053-Eval)(type KiCad)(uri ${KIPRJMOD}/lib/VS1053-ESP32-Eval.pretty)(options "")(descr ""))
+)
